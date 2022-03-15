@@ -5,6 +5,10 @@
   color: #fff;
 }
 
+.service .container {
+  align-items: center;
+}
+
 .col {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
@@ -23,5 +27,5 @@
 }
 
 .col p {
-    color: rgba(255, 255, 255, 0.774);
+  color: rgba(255, 255, 255, 0.774);
 }
