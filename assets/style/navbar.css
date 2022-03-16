@@ -6,9 +6,15 @@ nav {
   align-items: center;
   display: flex;
   z-index: 999;
+  transition: 0s all ease;
+}
+.nav-scrolled {
+  background: #1f1f40;
+  z-index: 99999;
+  transition: 0s all ease;
 }
 nav .container {
-    align-items: center;
+  align-items: center;
 }
 .logo {
   cursor: pointer;
