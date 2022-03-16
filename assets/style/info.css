@@ -1,0 +1,35 @@
+.info {
+  height: 225px;
+  background-color: var(--primary-color);
+}
+
+.info-item {
+  max-width: 25%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.info-icon {
+  font-size: 70px;
+  color: var(--secondary-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info-content {
+  color: #fff;
+}
+
+.info-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.info-content span {
+  font-weight: 400;
+}
+
+.info-content p {
+  color: #9c9c9c;
+}

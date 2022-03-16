@@ -7,7 +7,7 @@
 }
 
 .top h3 {
-  color: #f57479;
+  color: var(--secondary-color);
   font-size: 20px;
   line-height: 34px;
   font-weight: 400;
@@ -50,7 +50,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background: #1f1f40;
+  background: var(--primary-color);
   left: 0;
   top: 0;
   transform: scaleX(0);
@@ -64,7 +64,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background: #f57479;
+  background: var(--secondary-color);
   left: 0;
   top: 0;
   transform: scaleX(0);
@@ -83,14 +83,18 @@
   color: #fff;
 }
 
+.box-link {
+  cursor: pointer;
+}
+
 .box-link p,
 h5 {
   transform: translateX(-5%);
 }
 
-.box-content h5 {
+.box-link h5 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .box-link p,

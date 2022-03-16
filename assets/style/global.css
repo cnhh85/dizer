@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+  --primary-color: #1f1f40;
+  --secondary-color: #f57479;
+  --tertiary-color: #934ae4;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -29,7 +35,6 @@ section {
 }
 
 .container {
-  display: flex;
   max-width: 1140px;
   width: 100%;
   height: 100%;
@@ -37,6 +42,13 @@ section {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 100%;
 }
 
 .btn {

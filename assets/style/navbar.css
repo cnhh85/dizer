@@ -9,7 +9,7 @@ nav {
   transition: 0s all ease;
 }
 .nav-scrolled {
-  background: #1f1f40;
+  background: var(--primary-color);
   z-index: 99999;
   transition: 0s all ease;
 }
@@ -41,5 +41,5 @@ nav .container {
 }
 
 .link-item:hover {
-  color: #f57479;
+  color: var(--secondary-color);
 }

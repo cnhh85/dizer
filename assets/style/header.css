@@ -8,12 +8,6 @@
   z-index: 1;
 }
 
-.row {
-  display: flex;
-  height: 100%;
-  align-items: center;
-}
-
 .header-content {
   color: #fff;
   height: 100%;
@@ -31,13 +25,13 @@
 }
 
 .header-content a {
-  background: #1f1f40;
+  background: var(--primary-color);
   color: #fff;
   border: none;
 }
 
 .header-content a:hover {
-  background-color: #f57479 !important;
+  background-color: var(--secondary-color);
 }
 
 .header-object {
