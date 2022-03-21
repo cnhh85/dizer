@@ -88,7 +88,7 @@
 }
 
 .box-link p,
-h5 {
+.box-link h5 {
   transform: translateX(-5%);
 }
 
@@ -98,7 +98,7 @@ h5 {
 }
 
 .box-link p,
-h5 {
+.box-link h5 {
   transition: 0.2s ease-in;
   opacity: 0;
 }
