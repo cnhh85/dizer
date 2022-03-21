@@ -1,0 +1,26 @@
+.quote {
+  background-color: var(--tertiary-color);
+  padding: 80px 0px 65px 0px;
+}
+
+.quote-left {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.quote h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.quote a {
+  padding: 12px 35px;
+  color: #fff;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.quote a:hover {
+  background-color: var(--primary-color);
+}
